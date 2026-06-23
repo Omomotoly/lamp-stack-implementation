@@ -142,7 +142,7 @@ sudo mysql
 
 This opens the MySQL server with full admin permissions because sudo lets you log in as the root user.
 
-4\. Set a password for root user using mysql_native_password as default authentication method.
+4\. Set a password for root user using mysql_caching_sha2_password as default authentication method.
 
 Here, the user's password was defined as "Admin123"
 
